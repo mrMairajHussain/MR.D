@@ -1,0 +1,976 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background: rgba(161, 158, 158, 0.467);
+}
+
+
+.top-peak {
+    width: 100%;
+}
+
+.navbr {
+    /* border: 2px solid red; */
+    background-color: white;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-m {
+    /* border: 2px solid yellow; */
+    font-size: 30px;
+    font-family: system-ui;
+    margin: 0px;
+    cursor: pointer;
+
+}
+
+.menu-main {
+    /* border: 2px solid gray; */
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.menu {
+    /* border: 2px solid black; */
+    margin-right: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.mp {
+    margin-right: 0px;
+}
+
+.menu-p {
+    font-family: sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 20px;
+    height: 2px;
+    background-color: #333;
+    margin: 2px 0;
+    transition: 0.1s;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+.menu-op {
+    width: fit-content;
+    display: none;
+    margin-left: 10px;
+}
+
+.menu-m-a {
+    color: black;
+    text-decoration: none;
+    font-family: system-ui;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.menu-m-a:hover {
+    text-decoration-line: underline;
+}
+
+.theme {
+    /* border:1px solid red; */
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.th-img {
+    margin-right: 60px;
+
+}
+
+.th-img:hover {
+    /* border: 1px solid black; */
+    background-color: rgba(80, 80, 80, 0.188);
+}
+
+.img-m {
+    width: 20px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+.bgf-div {
+    /* border: 2px solid brown; */
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.dff {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dffm {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dfff {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dffl {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-img {
+    /* border: 2px solid red; */
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+
+
+}
+
+.bg-img-moo {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-img-m1 {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: none;
+
+}
+
+
+
+.bg-img-m {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: none;
+
+
+
+}
+
+.bg-aft-p {
+    /* border: 1px solid royalblue; */
+    position: absolute;
+    top: 35%;
+    width: 90%;
+    left: 3%;
+    background-color: #00000012;
+
+}
+
+.text-h1 {
+    font-size: 56px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.radio {
+    /* border: 1px solid orange; */
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 700;
+
+
+}
+
+input#n-c {
+    width: 17px;
+    height: 17px;
+}
+
+input#c-p-o {
+    width: 17px;
+    height: 17px;
+}
+
+.bg-btn {
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    width: 20%;
+    height: 60px;
+    font-size: 21px;
+    font-family: sans-serif;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+
+.bg-btn:hover {
+    background-color: aliceblue;
+}
+
+/* ______________________________________________________   SEC BRAND________________________________________________ */
+
+.brand-opt {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: fit-content;
+}
+
+.brand-sel {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    height: 100px;
+}
+
+
+
+
+
+.hover-main {
+    transition: all 1s ease 4s;
+
+}
+
+
+
+
+.imgh {
+    height: 100px;
+
+
+}
+
+
+
+.mercd {
+    /* border:2px solid orangered; */
+    margin-left: -195px;
+    padding: 10px;
+}
+
+
+
+.img1 {
+    width: fit-content;
+    height: 100px;
+}
+
+
+.img2 {
+    width: 80px;
+    height: 80px;
+}
+
+.img3 {
+    width: fit-content;
+    height: 100px;
+}
+
+.img4 {
+    width: fit-content;
+    height: 100px;
+}
+
+.hover-main {
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    transition: 1s;
+
+
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    /*top: 50%;*/
+    width: auto;
+    padding: 20px;
+    /* margin-top: -22px; */
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    display: none;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+    display: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+
+
+
+.v-v-div {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.img-div-v {
+    /* border: 1px solid black; */
+    width: 50%;
+
+}
+
+.img-v {
+    width: 90%;
+    margin-left: 10%;
+
+}
+
+.t-v-v {
+    /* border: 1px solid palevioletred; */
+    width: 49%;
+    text-align: start;
+
+}
+
+.t-v {
+    /* border: 1px solid crimson; */
+    font-size: 40px;
+    font-family: sans-serif;
+    width: 82%;
+    margin-left: 10%;
+
+}
+
+.t-v-btn {
+    border: 1px solid black;
+    color: black;
+    margin-left: 10%;
+    width: 25%;
+    height: 50px;
+    font-size: 18px;
+
+
+}
+
+.t-v-btn:hover {
+    border: 1px solid rgb(42, 42, 42);
+    color: rgb(42, 42, 42);
+
+
+}
+
+
+
+
+
+
+
+.sticky-div {
+    /* border: 1px solid red; */
+    margin-top: 70px;
+    display: flex;
+
+}
+
+.stky-main {
+    /* border: 1px solid red; */
+    display: contents;
+
+
+}
+
+.stky-img {
+    /* border: 1px solid blue; */
+    width: 100%;
+
+
+}
+
+.s-box {
+    /* border: 1px solid black; */
+    position: absolute;
+    width: 35%;
+    margin-left: 6%;
+    background-color: #ffffffc9;
+    box-shadow: 0px 0px 15px black;
+    margin-top: 100px;
+    height: fit-content;
+    padding: 2%;
+
+}
+
+.text-s {
+    /* border: 1px solid black; */
+    color: black;
+    font-family: system-ui;
+    text-align: start;
+    padding: 10px;
+    font-size: 15px;
+
+
+}
+
+.btns {
+    margin-top: 40px;
+}
+
+.btn-s1 {
+    width: fit-content;
+    height: 45px;
+    /* margin-left: 4%; */
+    background-color: black;
+    color: white;
+    font-size: 22px;
+
+}
+
+.btn-s1:hover {
+    color: rgb(218, 216, 216);
+}
+
+.btn-s2 {
+    width: fit-content;
+    height: 45px;
+    margin-left: 10%;
+    font-size: 22px;
+
+
+}
+
+.dealer {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: fit-content;
+}
+
+.d-box {
+    /* border: 2px solid black;    */
+    width: 40%;
+    height: 580px;
+    float: left;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h2-d {
+    /* border: 2px solid pink; */
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.d-btn {
+    border: 2px solid white;
+    width: 40%;
+    height: 70px;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    margin-top: 284px;
+}
+
+.d-btn:hover {
+    border: 2px solid rgb(210, 209, 209);
+    color: rgb(210, 209, 209);
+}
+
+.dealer-m {
+    /* border: 2px solid blue; */
+    width: 60%;
+    float: right;
+}
+
+.d-img {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 580px;
+}
+
+.footer-m {
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: black;
+    border-top-color: grey;
+    border-top-width: 10px;
+    padding: 5%;
+
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    height: 430px;
+}
+
+.b-t-btn {
+    border: 1px solid white;
+    margin-top: -310px;
+    margin-right: 60px;
+    border-radius: 4px;
+    font-family: fantasy;
+    background-color: white;
+    width: 105px;
+}
+
+.b-t-btn:hover {
+    background-color: rgb(204, 202, 202);
+}
+
+
+.s-m {
+    /* border: 2px solid chartreuse; */
+    margin-top: -104px;
+    width: 117px;
+}
+
+
+
+.s-m-l {
+    /* border: 1px solid red; */
+    width: 25px;
+}
+
+.p {
+    cursor: pointer;
+    width: fit-content;
+}
+
+.p:hover {
+    color: rgb(208, 206, 206);
+}
+
+.h4 {
+    cursor: pointer;
+}
+
+.h4:hover {
+    color: rgb(208, 206, 206);
+}
+
+
+/* ############################################################################################################
+############################################################################################################ */
+
+
+
+@media screen and (min-width:200px) and (max-width:600px) {
+
+    .menu {
+        margin-right: 5px;
+        margin-left: 20px;
+    }
+
+    .th-img {
+        margin-right: 20px;
+    }
+
+    .bg-aft-p {
+        top: 15%;
+    }
+
+    .text-h1 {
+        font-size: 28px;
+    }
+
+    .radio {
+        font-size: 15px;
+    }
+
+    .bg-btn {
+        width: fit-content;
+        height: 43px;
+    }
+
+
+    .menu-op {
+        margin-left: 94px;
+        position: absolute;
+        margin-top: -5px;
+    }
+
+    .menu-m-a {
+        padding: 2px;
+    }
+
+
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        display: block;
+    }
+
+    .prev {
+        left: 0;
+        border-radius: 3px 0 0 3px;
+        display: block;
+    }
+
+    .Audi {
+
+        margin-right: 60px;
+    }
+
+    .ferrari {
+        display: none;
+    }
+
+    .lem {
+        display: none;
+        margin-right: 45px;
+    }
+
+    .imgh {
+        margin-left: 70px;
+    }
+
+    .img1 {
+        height: 70px;
+    }
+
+    .img2 {
+        width: 60px;
+        height: 60px;
+    }
+
+    .img4 {
+        height: 85px;
+    }
+
+    .hover-main {
+        display: none;
+    }
+
+
+
+
+    .v-v-div {
+        width: 90%;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .img-div-v {
+        width: 90%;
+    }
+
+    .img-v {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .t-v-v {
+        width: 100%;
+        text-align: start;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .t-v {
+        font-size: 30px;
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .t-v-btn {
+        width: 80%;
+        height: 50px;
+        margin-left: 0;
+    }
+
+    .sticky-div {
+        /* border: 1px solid red; */
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .s-box {
+        width: 70%;
+        /* background-color: #ffffff75; */
+        background-color: #ffffff0d;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .btns {
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-s1 {
+        width: fit-content;
+        height: 30px;
+        background-color: black;
+        color: white;
+        font-size: 12px;
+    }
+
+    .btn-s2 {
+        width: fit-content;
+        height: 30px;
+        margin-left: 10%;
+        font-size: 12px;
+    }
+
+
+
+
+
+    .dealer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .d-box {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .d-img {
+
+        height: fit-content;
+    }
+
+    .dealer-m {
+        width: 100%;
+    }
+
+    .h2-d {
+        font-size: 30px;
+    }
+
+    .d-btn {
+
+        margin-top: 130px;
+        width: 70%;
+        height: 50px;
+    }
+
+    .b-t-btn {
+        margin-right: 20px;
+        position: absolute;
+        margin-top: -310px;
+        width: 105px;
+    }
+
+    .s-m {
+        margin-top: 26px;
+    }
+
+    .footer-m {
+        flex-direction: column;
+        height: 408px;
+    }
+
+    .footer {
+
+        height: auto;
+    }
+}
+
+
+
+@media screen and (min-width:601px) and (max-width:958px) {
+    .menu-op {
+        position: absolute;
+        margin-left: 133px;
+    }
+
+
+    .text-h1 {
+        font-size: 35px;
+    }
+
+    .radio {
+        font-size: 20px;
+    }
+
+    .bg-btn {
+        width: fit-content;
+    }
+
+    .brand-sel {
+        width: 90%;
+        padding: 5%;
+        justify-content: space-between;
+    }
+
+    .mercd {
+        margin-left: -80px;
+    }
+
+    .hover-main {
+        display: none;
+    }
+
+    .t-v-btn {
+        width: fit-content;
+    }
+
+    .s-box {
+        margin-top: 50px;
+        width: 40%;
+
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-s2 {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .dealer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .d-box {
+        width: 90%;
+        height: fit-content;
+        padding: 5%;
+    }
+
+    .d-btn {
+        margin-top: 100px;
+    }
+
+    .d-img {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .dealer-m {
+        width: 100%;
+    }
+
+    .b-t-btn {
+        width: 125px;
+        margin-right: 0;
+    }
+
+    .footer-m {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer {
+        background-color: black;
+    }
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width:959px) and (max-width:1279px) {}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MR.D-css.css" type="text/css">
+    <link rel="website icon" type="jpg" href="MRD/webl2.png">
+    <script src="MR.D-js.js"></script>
+    <title>MR.D-luxury car dealer</title>
+</head>
+
+<body>
+    <div class="top-peak">
+        <div class="navbr">
+            <div class="menu-main">
+                <div class="menu" onclick="menuc(this);menu2(m)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+
+                </div>
+                <div class="mp">
+                    <p class="menu-p">Menu</p>
+                </div>
+                <div class="menu-op" id="menu-mi"><span>|</span>
+                    <a href="#" class="menu-m-a">models</a><span>|</span>
+                    <a href="#" class="menu-m-a">used cars</a><span>|</span>
+                    <a href="#" class="menu-m-a">contact us</a>
+
+                </div>
+            </div>
+            <div class="logo" id="logoi">
+                <h1 class="logo-m" id="logo-mi" onclick="reload()">MR.D</h1>
+            </div>
+            <div class="theme">
+                <div class="th-img"><img class="img-m" id="img-mi" onclick="ctheme()" src="MRD/sun.png"
+                        title="change theme" alt=""></div>
+            </div>
+
+        </div>
+
+
+
+        <div class="bgf-div">
+            <div class="bg-img" id="bg-imgi">
+                <img class="dff" id="dffi" src="MRD/audi-r8b.jpg">
+            </div>
+            <div class="bg-img1" id="bg-img1mi" style="display: none;">
+                <img class="dffm" id="dffmi" src="MRD/mercd-gtb.jpg">
+            </div>
+            <div class="bg-img2" id="bg-img2mi" style="display: none;">
+                <img class="dfff" id="dfffi" src="MRD/ferrari-bg1.jpg">
+            </div>
+            <div class="bg-img3" id="bg-img3mi" style="display: none;">
+                <img class="dffl" id="dffli" src="MRD/lem-side1.webp">
+            </div>
+            <div class="bg-aft-p">
+                <h1 class="text-h1" id="text-h1i">The search for your Audi begins here.Explore the latest inventory.
+                </h1>
+                <div class="radio" id="radioi">
+                    <input type="radio" id="n-c" onclick="radio()" name="radio" value="n-c" checked>New Cars
+                    <input type="radio" id="c-p-o" onclick="radioc()" name="radio" value="c-p-o">certified pre-owned
+                </div>
+                <button class="bg-btn" id="r-btn">Shop new models</button>
+            </div>
+
+
+        </div>
+        <div class="brand-opt">
+            <div class="brand-sel" id="brand-seli">
+                <a class="prev" id="previ" onclick="subSlides()">❮</a>
+
+                <div class="Audi" id="audii" onmouseover="brandover()" onmouseout="brandout()" title="Audi"><img
+                        onclick="Audi(),Audia()" class="img1" src="MRD/audi-logo1.png" alt="">
+                </div><br>
+                <div class="mercd" id="mercdi"><img class="img2" id="img2i" title="mercedes" onclick="mercd(),mercda()"
+                        onmouseover="brand2over()" onmouseout="brand2out()" src="MRD/mercdese.png" alt="sorry"></div>
+                <div class="ferrari" id="ferrarii"><img class="img3" id="img3i" title="ferrari" onclick="ferrari()"
+                        onmouseover="brand3over()" onmouseout="brand3out()" src="MRD/ferrari-logob.png" alt="sorry">
+                </div>
+                <div class="lem" id="lemi"><img class="img4" id="img41" title="Lamborghini" onclick="lem()"
+                        onmouseover="brand4over()" onmouseout="brand4out()" src="MRD/lamborghini-logob1.png" alt="">
+                </div>
+
+                <a class="next" id="nexti" onclick="plusSlides()">❯</a>
+
+            </div>
+            <div class="hover-main" id="hover-maini">
+                <div class="hovers-a" id="hover-imga" style="display: none;"><img class="imgh" id="imghi"
+                        src="MRD/audi-bpng.png" alt=""></div>
+                <div class="hovers-m" id="hover-imgm" style="display: none;"><img class="imgh" id="imgmi"
+                        src="MRD/merc-bpng.png" alt=""></div>
+                <div class="hovers-f" id="hover-imgf" style="display: none;"><img class="imgh" id="imgfi"
+                        src="MRD/ferrari-bpng1.png" alt=""></div>
+                <div class="hovers-l" id="hover-imgl" style="display: none;"><img class="imgh" id="imgli"
+                        src="MRD/lem-bpng1.png" alt=""></div>
+
+            </div>
+
+        </div>
+
+
+        <div class="v-v-div" id="v-vi">
+            <div class="img-div-v">
+                <img class="img-v" id="img-vi" src="MRD/mrb-audi-top.jpg" alt="">
+            </div>
+            <div class="t-v-v">
+                <h1 class="t-v" id="t-vi">Audi Virtual Showroom</h1>
+                <button class="t-v-btn" id="t-v-btni">Explore more</button>
+
+            </div>
+
+        </div>
+        <div class="sticky-div">
+            <div class="stky-main">
+                <img class="stky-img" id="stky-imgi" src="MRD/audi-stky2.jpg" alt="">
+
+            </div>
+            <div class="s-box">
+                <h2 class="text-s" id="text-si">Seeing the world with different eyes is what drives us. Discover more
+                    about our
+                    vision of the future of mobility. Learn more about the technology in the Audi e-tron along with the
+                    charging options, range calculations and its benefits.</h2>
+                <div class="btns">
+                    <button class="btn-s1">e-Tron hub</button>
+                    <button class="btn-s2">#Futureanattitude</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="dealer">
+            <div class="d-box">
+                <h2 class="h2-d">Our partners</h2>
+                <button class="d-btn">Explore</button>
+            </div>
+            <div class="dealer-m">
+                <img class="d-img" src="MRD/map1.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="footer-m">
+
+            <div class="footer">
+
+                <div class="models">
+                    <h4 class="h4">models</h4>
+                    <p class="p">All models</p>
+                    <p class="p">Models price list</p>
+                </div>
+                <div class="used">
+                    <h4 class="h4">used cars</h4>
+                    <p id="c1" class="p">Audi apporved plus</p>
+                    <p class="p">Our partners</p>
+                </div>
+                <div class="c-area">
+                    <h4 class="h4">Customer area</h4>
+                    <p id="c2" class="p">Audi service</p>
+                    <p id="c3" class="p">myAudi connect</p>
+                    <p id="c4" class="p">Audi owner</p>
+                    <p class="p">Book a test drive</p>
+                </div>
+
+            </div>
+            <div class="s-m">
+                <div class="s-mm">
+                    <img class="s-m-l" src="MRD/insto.png" alt="">
+                    <img class="s-m-l" src="MRD/fbo.png" alt="">
+                    <img class="s-m-l" src="MRD/lio.png" alt="">
+                </div>
+            </div>
+            <button class="b-t-btn" onclick=" topFunction()" title="go to top">back to top^</button>
+
+
+        </div>
+
+    </div>
+    <script>
+        var img = document.getElementById('bg-imgi');
+
+        var slides = ['MRD/audi.bg1.jpg', "MRD/audi-r8w.jpg", "MRD/mrb-audi-bgr.jpg", "MRD/audi-yback.jpg"];
+
+        var Start = 0;
+
+        function slider() {
+            if (Start < slides.length) {
+                Start = Start + 1;
+            }
+            else {
+                Start = 1;
+            }
+            img.innerHTML = "<img class= dff src=" + slides[Start - 1] + ">";
+
+        }
+        setInterval(slider, 3000);
+
+        document.getElementById("audii").setAttribute("style", "border: 2px solid orangered;border-top-color: gray;border-left: none;border-right: none;border-bottom: none;border-top-width: 5px;")
+
+
+
+
+
+
+
+        var A = window.matchMedia('(max-width: 600px)');
+
+
+
+        if (A.matches) {
+
+            var img = document.getElementById('bg-imgi');
+
+            var slides = ['MRD/audi-ph1.jpg', "MRD/audi-ph2.jpg", "MRD/audi-ph3.jpg", "MRD/audi-ph4.jpg"];
+
+            var Start = 0;
+
+            function slider() {
+                if (Start < slides.length) {
+                    Start = Start + 1;
+                }
+                else {
+                    Start = 1;
+                }
+                img.innerHTML = "<img class= dff src=" + slides[Start - 1] + ">";
+
+            }
+            setInterval(slider, 3000);
+            document.getElementById("dffi").src = "MRD/audi-ph51.jpg";
+            document.getElementById("stky-imgi").src = "MRD/audi-el-ph1.jpg";
+
+
+            document.getElementById("audii").setAttribute("style", "border: 2px solid orangered;border-top-color: gray;border-left: none;border-right: none;border-bottom: none;border-top-width: 5px;")
+        }
+    </script>
+
+
+</body>
+
+</html>
